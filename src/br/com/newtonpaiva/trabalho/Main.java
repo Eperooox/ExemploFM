@@ -5,10 +5,10 @@ public class Main
     {
         AnimalFactory animalFactory = new AnimalFactory();
 
-        Animal dog = animalFactory.criarAnimal("Cachorro");
-        dog.barulho(); // Output: AU!
+        Animal cachorro = animalFactory.criarAnimal("Cachorro");
+        cachorro.barulho();
 
-        Animal cat = animalFactory.criarAnimal("Gato");
-        cat.barulho(); // Output: MIAU!
+        Animal gato = animalFactory.criarAnimal("Gato");
+        gato.barulho();
     }
 }
